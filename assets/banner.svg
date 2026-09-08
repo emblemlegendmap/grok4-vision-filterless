@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="40%" stop-color="#0d1424"/>
+      <stop offset="70%" stop-color="#111c30"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.2" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#1a2a4a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a2a4a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.85" cy="0.7" r="0.5">
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1e3a5f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a9eff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4a9eff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4a9eff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow1)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow2)"/>
+
+  <!-- Decorative grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="80" r="60" fill="none" stroke="#4a9eff" stroke-opacity="0.06" stroke-width="1.5"/>
+  <circle cx="1100" cy="280" r="80" fill="none" stroke="#4a9eff" stroke-opacity="0.05" stroke-width="1.5"/>
+  <circle cx="1050" cy="70" r="30" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+  <circle cx="150" cy="290" r="45" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+  <!-- Decorative paths -->
+  <path d="M0,200 Q300,160 600,210 T1200,190" fill="none" stroke="#4a9eff" stroke-opacity="0.05" stroke-width="1.5"/>
+  <path d="M0,250 Q400,290 800,240 T1200,260" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="200" cy="100" r="2" fill="#4a9eff" fill-opacity="0.15"/>
+  <circle cx="950" cy="120" r="1.5" fill="#4a9eff" fill-opacity="0.2"/>
+  <circle cx="850" cy="300" r="2" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="350" cy="270" r="1.5" fill="#ffffff" fill-opacity="0.1"/>
+  <circle cx="500" cy="90" r="1" fill="#4a9eff" fill-opacity="0.25"/>
+
+  <!-- Accent line above headline -->
+  <rect x="500" y="118" width="200" height="2" rx="1" fill="url(#accentLine)"/>
+
+  <!-- Headline -->
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="52.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">Grok 4 Vision Without Filters</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Vision tools for researchers using Grok 4 — view raw image inputs</tspan>
+    <tspan x="600" dy="28">without automatic content moderation.</tspan>
+  </text>
+
+  <!-- Bottom accent line -->
+  <rect x="450" y="275" width="300" height="1" rx="0.5" fill="url(#accentLine)"/>
+</svg>
